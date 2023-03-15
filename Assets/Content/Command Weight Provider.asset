@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bf0c1d551f78746be4ee9bfd0d7921, type: 3}
+  m_Name: Command Weight Provider
+  m_EditorClassIdentifier: 
+  _defaultWeight: 0
+  _commandWeights:
+  - Command: {fileID: 11400000, guid: ed2eabc06f671d8498545a7964380a97, type: 2}
+    Weight: 20
+  - Command: {fileID: 11400000, guid: 2fa00f03adf93124dac84cb0896c7dab, type: 2}
+    Weight: 20

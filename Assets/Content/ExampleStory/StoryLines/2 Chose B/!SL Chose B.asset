@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515dbf7737d78934397ae41932bec266, type: 3}
+  m_Name: '!SL Chose B'
+  m_EditorClassIdentifier: 
+  _soDatabaseElementID: 0
+  _commands:
+  - {fileID: 11400000, guid: 7803fbeedc46bc04c82a5e43eb11adc4, type: 2}
+  - {fileID: 11400000, guid: 674886881ff3f4243897c624a81ea29a, type: 2}
+  - {fileID: 11400000, guid: cd57d05703dcdea4bb8fc7381cb08250, type: 2}
+  - {fileID: 11400000, guid: 4bebb5a807119dd44a24f43308e4a538, type: 2}
+  - {fileID: 11400000, guid: 7050505f4d84e644b9313b204eece802, type: 2}
+  - {fileID: 11400000, guid: 789588311a4662f42b7b7587fd7daa96, type: 2}
+  - {fileID: 11400000, guid: 661b038a14920b2448669997d7237494, type: 2}

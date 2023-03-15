@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG_Img
+    uniqueID: 2470609113
+    locked: 0
+  - name: Characters
+    uniqueID: 1137599869
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
