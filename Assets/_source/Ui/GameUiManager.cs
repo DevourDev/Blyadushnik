@@ -19,7 +19,7 @@ namespace Game.Ui
 
         private void OnDestroy()
         {
-            if(_inst == this)
+            if (_inst == this)
             {
                 _inst = null;
             }
