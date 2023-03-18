@@ -24,9 +24,15 @@ namespace Game.Ui
             var inst = Instantiate(_poppingTextPrefab);
             inst.transform.position = _spawnPoint.position;
             string msg = delta < 0 ? _statDecreasedMsg : _statIncreasedMsg;
-            inst.SetText($"{msg}: {delta.ToString()}");
+            inst.SetText($"{msg} {stat.StatName.Get()}: {delta.ToString()}");
             inst.Direction = _direction;
 
+            var sr = inst.GetComponentInChildren<SpriteRenderer>();
+
+            if(sr != null)
+            {
+                sr.sprite = stat.Icon;
+            }
         }
     }
 }
